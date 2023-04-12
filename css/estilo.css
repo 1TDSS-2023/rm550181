@@ -6,8 +6,37 @@
 
 .cabecalho{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
     background-color: black;
+}
+
+.cabecalho nav{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 60%;
+    height: 100%;
+} 
+.cabecalho img{
+    width: 30%;
+    max-width: 30%;
+    display: block;
+}
+
+.cabecalho a{
+    text-decoration: nome ;
+    font-size: 4em;
+    font-weight: 700;
+    color: #fff;
+    padding: 20% 0;
+    text-align: center;
+}
+
+.cabecalho a:hover{
+    background-color: #fff;
+    color: black;
+}
+
 }
