@@ -39,4 +39,17 @@
     color: black;
 }
 
+.conteudo img{
+    max-width: 100%;
+    display: block;
+}
+
+.conteudo{
+display: flex;
+flex-wrap: wrap;    
+}
+
+.conteudo > div{
+    flex-grow: 1;
+    
 }
