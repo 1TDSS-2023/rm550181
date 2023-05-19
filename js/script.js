@@ -128,11 +128,19 @@
 // });
 
 const elements = [...document.querySelectorAll(".teste")];
-console.log(elements);
+//console.log(elements);
 
-elements.forEach((el)=>{
-    if(el.tagName == "img"){
+
+elements.forEach( (el)=>{
+    if(el.tagName.toLowerCase() == "img"){
         console.log(el);
-    }
-
+    }    
 });
+
+/* <h2 class="tit-sec">Seçao de Fotos</h2> */
+
+const h2Element = document.querySelector("#meu-btn");
+
+console.log(h2Element);
+
+//querySelectorAll()
